@@ -53,10 +53,13 @@ have not been formally tested.
 
 ## Installation
 
-The development version of `twmq` can be installed from GitHub using
-`devtools::install_github`. The package depends on `Rcpp`, `RcppArmadillo`,
-`quantreg`, `conquer`, and `CEoptim`. For the parallel routines, also install
-`doSNOW`, `foreach`, and `RhpcBLASctl`.
+Install the `remotes` package first if needed. Then install the development version of `twmq` from GitHub:
+
+`install.packages("remotes")`
+
+`remotes::install_github("wenyangliu0110/twmq-package")`
+
+The package depends on `Rcpp`, `RcppArmadillo`, `quantreg`, `conquer`, and `CEoptim`. For the parallel routines, also install `doSNOW`, `foreach`, and `RhpcBLASctl`.
 
 ---
 
