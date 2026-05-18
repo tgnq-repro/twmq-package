@@ -1,0 +1,23 @@
+Package: twmq
+Type: Package
+Title: Two-way Network Quantile Estimation
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Two-way network quantile estimation using quantreg, conquer and RcppArmadillo.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    Rcpp,
+    quantreg,
+    conquer,
+    CEoptim
+LinkingTo:
+    Rcpp,
+    RcppArmadillo
+Suggests:
+    foreach,
+    doSNOW,
+    parallel,
+    RhpcBLASctl
